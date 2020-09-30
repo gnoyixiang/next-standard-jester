@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Card renders inactive without crashing 1`] = `
+<Card__StyledCard>
+  <h3>
+     →
+  </h3>
+  <p />
+</Card__StyledCard>
+`;

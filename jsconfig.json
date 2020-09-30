@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "ES6",
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": "./",
+    "paths": {
+      // https://github.com/entwicklerstube/babel-plugin-root-import/issues/61
+      "src/*": ["./src/*"]
+    }
+  },
+  "exclude": ["build", "node_modules", "public", ".next"]
+}

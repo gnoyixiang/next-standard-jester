@@ -2,7 +2,15 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
-First, run the development server:
+Run the following command to create a new project with this Starter:
+
+```bash
+yarn create next-app [project-name] -e [GitHub URL]
+# or
+npx create-next-app [project-name] -e [GitHub URL]
+```
+
+Run the development server:
 
 ```bash
 npm run dev
@@ -10,9 +18,17 @@ npm run dev
 yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:5566](http://localhost:5566) with your browser to see the result.
 
 You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+
+## Code formatting
+
+This starter project uses Standard JS as for linting and formatting. 
+
+If you are using VS Code, you should install the following extensions:
+* [StandardJS - JavaScript Standard Style](https://marketplace.visualstudio.com/items?itemName=chenxsan.vscode-standardjs)
+* [Prettier-Standard - JavaScript formatter](https://marketplace.visualstudio.com/items?itemName=numso.prettier-standard-vscode)
 
 ## Learn More
 

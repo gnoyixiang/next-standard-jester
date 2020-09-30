@@ -5,9 +5,9 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 Run the following command to create a new project with this Starter:
 
 ```bash
-yarn create next-app [project-name] -e [GitHub URL]
+yarn create next-app [project-name] -e https://github.com/gnoyixiang/next-standard-jester
 # or
-npx create-next-app [project-name] -e [GitHub URL]
+npx create-next-app [project-name] -e https://github.com/gnoyixiang/next-standard-jester
 ```
 
 Run the development server:

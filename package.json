@@ -5,7 +5,7 @@
   "scripts": {
     "build": "yarn clean && next build",
     "clean": "rimraf ./.next ./dist ./src/.next ./src/dist",
-    "dev": "next dev -p 5566",
+    "dev": "next dev -p 2020",
     "precommit": "standard --fix | snazzy",
     "start": "next start",
     "test": "jest --watch",
